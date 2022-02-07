@@ -1,11 +1,10 @@
-# sl-tailwind
-Sitelab tailwind vanilla coded website design - pushed by Cloudflare Pages.
-
+# aidxn-tailwind - pushed by Cloudflare Pages
+Aidxn.com tailwind vanilla site at index. 
+blog.aidxn.com - install cms based web3 blog. 
 
 
 # job list
 - Finalise basic Home page design and migration. 
-
 - create your own horizontal-slider.css (keep unopinionated, share with Velocity)
 - create your own chipmenu.css for submenu's (keep unopinionated, share with Velocity)
 - source a lightweight fluid JS slider for all sites (understand it well first, codepen, then seperate git, then bring in)
