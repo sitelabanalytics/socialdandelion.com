@@ -61,12 +61,34 @@
 
         <!-- Mobile Button -->
         <div class="flex items-center justify-center h-full text-white md:hidden">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
-            </svg>
+            <button class="outline-none mobile-menu-button">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8h16M4 16h16"></path>
+                </svg>
+            </button>
         </div>
 
     </div>
+
+    <!-- mobile menu -->
+			<div class="hidden mobile-menu bg-black font-semibold text-white absolute w-full">
+				<ul class="">
+					<li class="active"><a href="index.html" class="block text-sm px-6 py-4 bg-purple-600 font-semibold">Home</a></li>
+					<li><a href="#services" class="block text-sm px-6 py-4 hover:bg-purple-600 transition duration-200">About</a></li>
+					<li><a href="#about" class="block text-sm px-6 py-4 hover:bg-purple-600 transition duration-200">Blog</a></li>
+					<li><a href="#contact" class="block text-sm px-6 py-4 hover:bg-purple-600 transition duration-200">Sitelab</a></li>
+                    <li><a href="#contact" class="block text-sm px-6 py-4 hover:bg-purple-600 transition duration-200">Contact</a></li>
+				</ul>
+			</div>
+			<script>
+				const btn = document.querySelector("button.mobile-menu-button");
+				const menu = document.querySelector(".mobile-menu");
+
+				btn.addEventListener("click", () => {
+					menu.classList.toggle("hidden");
+				});
+			</script>
+    
 </section>
 
 <!-- Section 7 - Integrations youll love -->
