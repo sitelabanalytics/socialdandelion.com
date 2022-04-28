@@ -1,3 +1,58 @@
+/* hide on devices */
+@media screen and (min-width: 1199px) {
+  .no-desk {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .no-mobile {
+    display: none;
+  }
+}
+
+#card {
+  padding: 30px 20px;
+  width: 320px; 
+  height: 260px !important;
+}
+
+.carousel-cell {
+  width: 48%;
+  height: 550px;
+  margin-right: 10px;
+  background: #f2f2f2;
+  border-radius: 5px;
+  counter-increment: gallery-cell;
+}
+@media screen and (max-width: 1440px) {
+  .carousel-cell {
+    height: 300px;
+    width: 65%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .carousel-cell {
+    height: 250px;
+    width: 85%;
+  }
+}
+
+.carousel-cell img {
+  object-position: center;
+}
+
+/* CSSTricks scroll animation post - uses small js in head to connect to scroll variable */
+.scroll-spin {
+  position: fixed; /* make sure it stays put so we can see it! */
+
+  animation: rotate 1s linear infinite;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
+}
+
+
+/* Custom classes and ids */
 #headerArea {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -6,3 +61,4 @@
 #headerLogo {
   filter: drop-shadow(0px 0px 10px #ffffff75);
 }
+
