@@ -84,8 +84,9 @@
 
 /* Custom classes and ids */
 #headerArea {
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background: #f2f2f220;
 }
 
 #headerLogo {
