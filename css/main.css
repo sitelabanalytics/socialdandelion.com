@@ -18,7 +18,6 @@
 
 #card {
   padding: 30px 20px;
-  width: 320px;
   background: #f2f2f2;
   border-radius: 5px;
 }
@@ -42,14 +41,13 @@
 }
 
 .carousel-cell {
-  width: 35%;
-  height: 450px;
   margin-right: 10px;
+  min-width: 200px;
   counter-increment: gallery-cell;
   background: #f2f2f200;
   transition: all 0.3s ease;
 }
-@media screen and (max-width: 1440px) {
+/* @media screen and (max-width: 1440px) {
   .carousel-cell {
     height: 300px;
     width: 65%;
@@ -60,7 +58,7 @@
     height: 250px;
     width: 85%;
   }
-}
+} */
 
 .carousel-cell .is-selected {
   background: #f2f2f2;
