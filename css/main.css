@@ -23,42 +23,52 @@
 }
 
 .lrg-card {
-  height: 550px !important;
+  height: 450px !important;
   min-width: 65%;
+  max-height: 80vh;
 }
 @media screen and (max-width: 1440px) {
   .lrg-card {
     height: 400px !important;
   }
 }
+@media screen and (max-width: 992px) {
+  .lrg-card {
+    height: 350px !important;
+  }
+}
+
+.sml-card {
+  width: 25%; 
+}
+@media screen and (max-width: 1440px) {
+  .sml-card {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 568px) {
+  .sml-card {
+    width: 100%;
+  }
+}
 
 #mediumRow {
-  height: 450px;
+  height: 350px;
 }
 
 #largeRow {
-  height: 550px;
+  height: 450px;
+  max-height: 65vh;
+  margin-bottom: 20px;
 }
 
 .carousel-cell {
   margin-right: 10px;
-  min-width: 200px;
+  min-width: 250px;
   counter-increment: gallery-cell;
   background: #f2f2f200;
   transition: all 0.3s ease;
 }
-/* @media screen and (max-width: 1440px) {
-  .carousel-cell {
-    height: 300px;
-    width: 65%;
-  }
-}
-@media screen and (max-width: 568px) {
-  .carousel-cell {
-    height: 250px;
-    width: 85%;
-  }
-} */
 
 .carousel-cell .is-selected {
   background: #f2f2f2;
