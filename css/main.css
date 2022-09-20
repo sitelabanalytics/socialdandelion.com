@@ -24,7 +24,6 @@
 
 .lrg-card {
   height: 450px !important;
-  min-width: 65%;
   max-height: 80vh;
 }
 @media screen and (max-width: 1440px) {
@@ -64,8 +63,8 @@
 
 .carousel-cell {
   margin-right: 10px;
-  min-width: 450px;
-  max-width: 100%;
+  min-width: 300px;
+  max-width: 600px;
   counter-increment: gallery-cell;
   background: #f2f2f200;
   transition: all 0.3s ease;
