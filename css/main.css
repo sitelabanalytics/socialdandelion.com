@@ -24,7 +24,7 @@
 .lrg-card {
   height: 450px !important;
   max-height: 80vh;
-  min-width: 450px;
+  width: 350px;
 }
 @media screen and (max-width: 1440px) {
   .lrg-card {
@@ -39,7 +39,7 @@
 
 .sml-card {
   width: 10%;
-  min-width: 300px;
+  width: 300px;
 }
 @media screen and (max-width: 1440px) {
   .sml-card {
@@ -72,7 +72,6 @@
 
 .carousel-cell img {
   object-position: center;
-  object-fit: cover;
   min-width: 100%;
 }
 
