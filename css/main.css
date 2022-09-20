@@ -133,3 +133,7 @@
 .cf-paypal-buttons button.paypal-button .paypal-button-logo {
   height: 45px !important;
 }
+
+.cf-paypal-buttons cf-item-name {
+  font-size: 1.25em !important;
+}
