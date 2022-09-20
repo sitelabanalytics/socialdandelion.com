@@ -25,6 +25,7 @@
 .lrg-card {
   height: 450px !important;
   max-height: 80vh;
+  min-width: 450px;
 }
 @media screen and (max-width: 1440px) {
   .lrg-card {
@@ -38,7 +39,8 @@
 }
 
 .sml-card {
-  width: 10%; 
+  width: 10%;
+  min-width: 300px;
 }
 @media screen and (max-width: 1440px) {
   .sml-card {
@@ -63,7 +65,7 @@
 
 .carousel-cell {
   margin-right: 10px;
-  width: auto;
+  max-width: 90vw;
   counter-increment: gallery-cell;
   background: #f2f2f200;
   transition: all 0.3s ease;
@@ -73,7 +75,6 @@
   object-position: center;
   object-fit: cover;
   min-width: 100%;
-  min-height: 100%;
 }
 
 /* CSSTricks scroll animation post - uses small js in head to connect to scroll variable */
