@@ -1,5 +1,5 @@
-# aidxn-tailwind - pushed by Cloudflare Pages
-Aidxn.com tailwind vanilla site at index. 
+# aidxn-tailwind - focus on selling R.E. html5 ads
+Aidxn.com tailwind vanilla site at index - pushed by Cloudflare Pages
 blog.aidxn.com - install cms based web3 blog. 
 
 
