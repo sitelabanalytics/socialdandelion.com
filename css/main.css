@@ -126,6 +126,10 @@
   justify-content: start !important;  
 }
 
+.cf-paypal-buttons cf-button-container {
+  margin-right: 1.25em !important;
+}
+
 .cf-paypal-buttons button.paypal-button .paypal-button-logo, .cf-paypal-buttons button.paypal-button .paypal-button-content {
   height: 45px !important; 
 }
