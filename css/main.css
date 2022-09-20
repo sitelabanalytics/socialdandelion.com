@@ -65,7 +65,7 @@
 .carousel-cell {
   margin-right: 10px;
   min-width: 450px;
-  max-width: 100vw;
+  max-width: 100%;
   counter-increment: gallery-cell;
   background: #f2f2f200;
   transition: all 0.3s ease;
@@ -78,6 +78,9 @@
 
 .carousel-cell img {
   object-position: center;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
 }
 
 /* CSSTricks scroll animation post - uses small js in head to connect to scroll variable */
