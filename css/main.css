@@ -106,11 +106,15 @@
 
 
 /* PayPal fix design */
-.cf-paypal-buttons {
+.cf-paypal-buttons cloudflare-app {
   padding: 30px 0px !important;
   justify-content: start !important;  
 }
 
 .cf-paypal-buttons button.paypal-button .paypal-button-logo, .cf-paypal-buttons button.paypal-button .paypal-button-content {
   height: 45px !important; 
+}
+
+.cf-paypal-buttons button.paypal-button .paypal-button-logo {
+  height: 45px !important;
 }
