@@ -63,16 +63,10 @@
 
 .carousel-cell {
   margin-right: 10px;
-  min-width: 300px;
-  max-width: 600px;
+  width: auto;
   counter-increment: gallery-cell;
   background: #f2f2f200;
   transition: all 0.3s ease;
-}
-
-.carousel-cell .is-selected {
-  background: #f2f2f2;
-  border-radius: 5px;
 }
 
 .carousel-cell img {
