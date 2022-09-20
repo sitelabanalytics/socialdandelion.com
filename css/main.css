@@ -106,11 +106,11 @@
 
 
 /* PayPal fix design */
-.cf-paypal-buttons cf-button-container {
+.cf-paypal-buttons {
   padding: 30px 0px !important;
   justify-content: start !important;  
 }
 
-.cf-paypal-buttons button.paypal-button .paypal-button-content {
+.cf-paypal-buttons button.paypal-button .paypal-button-logo, .cf-paypal-buttons button.paypal-button .paypal-button-content {
   height: 45px !important; 
 }
