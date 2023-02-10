@@ -61,19 +61,11 @@
 }
 
 .sml-card {
-  width: 12.5%;
-  width: 300px;
+  min-width: 215px;
+  width: 21%;
+  max-width: 365px !important;
 }
-@media screen and (max-width: 1440px) {
-  .sml-card {
-    width: 25%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .sml-card {
-    width: 35%;
-  }
-}
+
 
 #mediumRow {
   height: 350px;
